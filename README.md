@@ -1,1 +1,4 @@
 # estructura
+Para la estructura de BST y de la linked list se uso los codigos desarrollados durante las clases. A partir de ahí los dos end points para la creación y la obtención de los productos que se usarán en los pedidos. Respecto a los cinco end points para los pedidos, el único en particular que implicaba una decisión era el de modificación de pedidos. Podía crear una función que modificara campos especificos o una que sobreescribiera por completo el pedido con la nueva información recibida. Finalmente por simplicidad he optado por lo segundo.
+
+Conclusiones y observaciones: Sería mucho más optima la primera opción en la modificación del pedido por temas de ux. Y en términos generales y comparando con los otros proyectos, cobra sentido la simplicidad de la estructura de la API con FAST API en comparación con django.
